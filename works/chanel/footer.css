@@ -1,0 +1,11 @@
+#footer{position: fixed; bottom: 0;
+        text-align: center;
+        opacity: 0.9;
+        width: 100%;
+            margin-bottom: 10px;
+        opacity: 0;}
+
+.f_center{width: 1075px; margin: 0 auto;}
+
+#footer p{font-size: 13px; color: #333; height: 20px;}
+#footer span{margin-right: 3px; display: inline-block;}

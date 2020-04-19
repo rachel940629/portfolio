@@ -1,0 +1,60 @@
+* {margin:0; padding:0;}
+ol,ul,li {list-style:none;}
+a {text-decoration:none; }
+img {vertical-align:top; border:none; width: 100%;}
+table {border-collapse:collapse;}
+.clear:after {content:""; display:block; clear:both;}
+body{font-family: 'Raleway', sans-serif; color: #333; letter-spacing: 1px;}
+
+/*HEADER*/
+#header h1{width: 980px; height: 110px; line-height: 120px; margin: 0 auto; font-size: 25px; letter-spacing: 3px;}
+
+/*TAB_MENU*/
+.tab_wrap{width: 980px; margin: 0 auto;}
+.tab_menu li{float: left; margin-right: 40px;}
+.tab_menu li a{color: #333; font-size: 14px; letter-spacing: 1px;}
+.tab_menu li:hover a{font-weight: bold;}
+.tab_menu li a.on{font-weight: bold;}
+
+/*TAB_CONTAINER*/
+.tab_container{position: relative;}
+.tab_container ul{position: absolute; display: none; margin-top: 30px;}
+.tab_container ul:nth-child(1){display: block;}
+.tab_container ul:after{display: block; content: ""; clear: both;}
+
+/*profile*/
+.me_text{float: left; line-height: 30px; font-size: 12px;}
+.me{float: left; width: 300px; margin-right: 50px;}
+
+/*works, practice*/
+.thumnail{width: 750px; margin: 0 auto;}
+.text{font-size: 13px; color: #333; margin: 30px; line-height: 30px; text-align: center;}
+.text .tit{font-weight: bold; font-size: 13px;}
+.iu, .sks-m{width: 350px; margin: 0 auto;}
+
+.tab_container div:hover img{opacity: 0.7;}
+
+/*contact*/
+.tab_container ul:last-child{width: 300px; line-height: 30px; font-size: 13px;}
+.copyright{font-size: 9px;}
+
+@media screen and (max-width:768px){
+    #header h1{width: 80%; font-size: 20px;}
+
+/*TAB_MENU*/
+.tab_wrap{width: 80%; }
+
+/*works*/
+.thumnail{width: 100%;}
+.text{font-size: 13px; color: #333; margin: 30px; line-height: 30px; text-align: center;}
+
+.iu{width: 100%; margin: 0 auto;}
+
+/*contact*/
+.tab_container ul:last-child{width: 300px; line-height: 30px; font-size: 13px;}
+    .me{margin-bottom: 30px;}
+    .me_text{
+        float: none;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,13 @@
+html,body{height: 100%; width: 100%;}
+#sub3_container{height: 200%; width: 100%;}
+#sub3_container > div {height: 50%; width: 100%; overflow: hidden}
+#sub3_container > #footer{height: 20px;}
+
+.s3_center, .s3_center2{width: 1029px; margin: 150px auto; opacity: 0;}
+.s3_center img{float: left; position: relative; top: 150px;}
+.title{position: relative; top: 200px; line-height: 24px; left: 50px; }
+.title span{font-size: 17px; display: inline-block; padding: 20px 0;}
+.title h3{font-size: 40px; letter-spacing: 2px;}
+.title p{font-size: 13px;}
+.bottle{width: 400px; float: right; left: -40px;}
+.s3_center2 img{position: relative; top: 150px;}

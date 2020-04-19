@@ -1,0 +1,99 @@
+@media screen and (max-width:768px){
+.top_btn{display: none;}
+#container{height: 400%; width: 100%; }
+#container > div{height: 25%; width: 100%; overflow: hidden;}
+    
+/*slide menu*/
+.hamburger, .gnb{display:none;}
+body{font-size: 15px;}
+    
+/*TOP*/
+.top{display: none;}
+.top_img{display: none;}
+
+/*CONTAINER 1*/
+.cont1_wrap{
+            width: 80%; 
+            opacity: 1;
+            position: absolute;
+            left: 50%; top: 15%;
+            transform: translate(-50%,-15%);
+            
+           }
+.cont1_title{font-size: 15px;
+                line-height: 40px;}
+.cont1_title2{font-size: 10px;
+            letter-spacing: 3px;
+            position: relative;
+            bottom: 40px;}
+
+
+.cont1_img{ 
+            width: 80%; 
+            opacity: 1;
+            left: 50%; top: 38%;
+            transform: translateX(-50%); }
+.cont1_2_img{width: 100%;}
+.more a{ display: none;}
+
+/*CONTAINER 2*/
+.cont2_bg{ background-image: url(img/cont2_bg.png);
+       background-position: right center;
+       background-repeat: no-repeat;
+       background-size: contain;
+       width:100%; height: 100%;
+       opacity: 0;}
+.c2_center{width: 70%; margin: 0 auto;}
+.c2_wrap{opacity: 0;}
+.c2_title a{font-size: 20px; margin-top: 150px;
+         background-color: #fde1aa;
+         color: #fff;  
+         letter-spacing: 3px;
+         display: inline-block;
+         padding: 10px;}
+
+.c2_sub_title{font-size:10px;
+              letter-spacing: 3px;
+              margin-bottom: 20px;}
+
+.cont2_film{width: 100%;
+            opacity: 0;}
+
+/*CONTAINER 3*/
+
+.cont3{padding: 0 0; box-sizing: border-box;}
+.carousel{position: relative;
+    top: 50%; transform: translateY(-50%);
+          width: 100%; 
+         opacity: 0;}
+.move{width: 400%; }
+.move li{display: block; padding-left: 50px; 
+        width: 20%; }
+    .move li a{display: none;}
+
+ .btn{position: absolute; top: 50%; transform: translateY(-50%);}
+.prev{left: 15%;}
+.next{right: 15%;}
+
+/*CONTAINER 4*/
+.cont4{
+       position: relative;
+      }
+.cont4_bg{background-image: url(img/theritual.png);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 100%; height: 100%;
+       opacity: 0;}
+
+.c4_wrap{ position: absolute;
+          top: 20%;
+          left: 10%;
+          opacity: 0;}
+.c4_title{font-size: 15px;
+          letter-spacing: 4px;
+          line-height: 30px;
+          }
+
+.more2 a{ display: none;}
+}

@@ -1,0 +1,11 @@
+ * {margin:0; padding:0;}
+        ol,ul,li { list-style:none;}
+        a { text-decoration:none; }
+        img { vertical-align:top; border:none;}
+        table { border-collapse:collapse;}
+        .clear:after { content:""; display:block; clear:both;}
+        body{font-family: 'Julius Sans One', sans-serif; 
+             font-weight: bold;
+             background-color: #fcf8ec; 
+             color: #333;}
+        

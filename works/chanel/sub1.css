@@ -1,0 +1,32 @@
+html,body{height: 100%; width: 100%;}
+#sub1_container{height: 200%; width: 100%;}
+#sub1_container > div{height: 50%; width: 100%; overflow: hidden;}
+#sub1_container > #footer{height: 20px;}
+
+.s1_top_center{width: 1075px; 
+          margin: 0 auto;
+          position: relative;
+          opacity: 0;
+          }
+
+.sub1_img{position: absolute;
+          left: 0; top: 200px;
+
+          }
+.sub1_text{position: absolute;
+           right: 0; top: 283px;}
+
+.sub1_coco{position: absolute;
+           top: 645px; right: 120px;}
+
+.s1b_bg{width: 100%; height: 100%;
+        background-image: url(img/sub1/sub1_2bg.png);
+             background-size: cover;
+             background-repeat: no-repeat;
+             opacity: 0;}
+.s1_bottom_center{width: 1090px; margin: 0 auto;
+                  position: relative;
+                  opacity: 0;}
+
+.sub1_film{width: 1090px; position: absolute;
+           top: 250px; left:15px;}

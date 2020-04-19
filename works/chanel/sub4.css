@@ -1,0 +1,42 @@
+html,body{height: 100%; width: 100%;}
+#sub4_container{height: 200%; width: 100%;}
+#sub4_container > div {height: 50%; width: 100%; overflow: hidden}
+#sub4_container > #footer{height: 20px;}
+
+.s4_center{width: 634px; margin: 0 auto;
+            margin-top: 200px; box-sizing: border-box;}
+.product img{float: left;}
+.product ul{float: right; text-align: right;
+            position: relative; 
+            top: 30px;}
+.hr{ position: relative; left: 60px;
+    display: block; 
+    width: 195px; background-color: #666;
+    height: 2px; 
+}
+
+.list1, .list3{margin-bottom: 150px;}
+
+.product ul li:nth-child(1){
+    font-size: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.product ul li:nth-child(3){
+    font-size: 14px;
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+.product ul li:nth-child(4){
+    width: 60px; height: 40px;
+    background-color: #ffeac1;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+}
+
+.line2{left: 40px;}
+.line3{left: 110px;}
+.line4{left: 170px;}
+.product{opacity: 0;}
